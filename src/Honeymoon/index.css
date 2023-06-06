@@ -10,6 +10,7 @@
 }
 
 .text-wrapper {
+    max-width: 800px;
     margin: 0 16px;
     font-size: 18px;
 }
@@ -30,8 +31,9 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .image-wrapper {
-        max-width: 620px;
+    .image-wrapper img {
+        max-height: 520px;
+        max-width: 600px;
     }
     .text-wrapper {
         max-width: 520px;

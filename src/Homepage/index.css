@@ -90,8 +90,12 @@ button:hover::after, button:focus::after {
         display: none;
     }
 
-    .image-button-wrapper{
+    .image-button-wrapper {
         flex-direction: column;
         margin-bottom: 16px;
+    }
+
+    .image-button-wrapper img {
+        max-width: 600px;
     }
 }

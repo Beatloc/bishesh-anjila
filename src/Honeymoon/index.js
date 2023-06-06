@@ -6,7 +6,7 @@ const Honeymoon = () => {
       <div className={"honeymoon-wrapper"}>
         <p className="mint" style={{ fontSize: 32 }}>Bishesh and Anjila's honeymoon to Bali</p>
         <div className={"image-wrapper"}>
-          <img src="images/bali.png"  alt="keling-kling"/>
+          <img style={{ maxHeight: 520 }} src="images/bali.png"  alt="keling-kling"/>
         </div>
         <div className={"text-wrapper"}>
           <p>Help them get to bali for their honeymoon.
