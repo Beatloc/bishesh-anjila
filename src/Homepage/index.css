@@ -86,7 +86,7 @@ button:hover::after, button:focus::after {
 }
 
 @media only screen and (max-width: 500px) {
-    #attiWrap {
+    .wrap {
         display: none;
     }
 

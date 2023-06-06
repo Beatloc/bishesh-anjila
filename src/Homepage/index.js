@@ -17,7 +17,7 @@ const Homepage = () => {
           <h1 className="wedding-title">Bishesh Weds Anjila</h1>
         </div>
         <div className="image-button-wrapper">
-          <div className="wrap" id="attiWrap">
+          <div className="wrap">
             <button onClick={ handleClick } className="button">Click me please</button>
           </div>
           <div>
