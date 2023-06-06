@@ -28,3 +28,12 @@
     font-size: 42px;
     padding-top: 16px;
 }
+
+@media only screen and (max-width: 500px) {
+    .image-wrapper {
+        max-width: 620px;
+    }
+    .text-wrapper {
+        max-width: 520px;
+    }
+}

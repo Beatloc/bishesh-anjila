@@ -17,16 +17,21 @@
 .App {
   text-align: center;
   font-family: 'Rocher', sans-serif;
-  base-palette: 9;
-  max-width: 1450px;
+  max-width: 100%;
   margin: auto;
 }
 
 .App-header {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 500px) {
+  .App-header {
+    flex-direction: row;
+  }
 }
